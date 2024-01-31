@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "magicpatrons",
+  "version": "${version}",
+  "name": "MagicPatrons",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/gogig/MagicPatrons"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/magicpatrons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "it.liaenayaxavor.magicpatrons.MagicPatrons"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
